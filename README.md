@@ -1,14 +1,14 @@
-Instructions to run script:
+#Instructions to run script
 In the terminal from the root folder please run:
 `npm install` to install node_module dependencies (bluebird and the request module)
 `npm start` to kick off the oscarData.js script
 
-Estimated average budget of all winners (1927 - 2014):
+#Estimated average budget of all winners (1927 - 2014)
 $17,260,453
 
-Brief summary of my approach:
+#Brief summary of my approach
 
-My approach follows three steps:
+My approach follows three steps
 1. Gather the list of winners for every year (title, year and detailUrl) with a GET request to 'http://oscars.yipitdata.com/'
 2. Iterate through the list of winners and make a GET request to the winner's "Detail URL" to obtain the budget
 3. Scrub various edge cases of the budget (brackets, foreign currency conversions, etc.)
