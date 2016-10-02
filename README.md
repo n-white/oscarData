@@ -3,6 +3,8 @@ In the terminal from the root folder please run `npm install` to install node_mo
 
 `npm start` to run the oscarData.js script
 
+Note: each year's winning title and budget will be logged to your terminal
+
 #Estimated average budget of all winners (1927 - 2014)
 $17,260,453
 
