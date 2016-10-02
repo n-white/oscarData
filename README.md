@@ -1,6 +1,7 @@
 #Instructions to run script
 In the terminal from the root folder please run:
 `npm install` to install node_module dependencies (bluebird and the request module)
+
 `npm start` to kick off the oscarData.js script
 
 #Estimated average budget of all winners (1927 - 2014)
