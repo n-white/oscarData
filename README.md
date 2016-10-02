@@ -23,5 +23,5 @@ Below is a general outline of my approach to cleaning up edge cases in the budge
 - If a number is written in english (e.g., "$2 million"), convert it to a real number (e.g., "$2,000,000")
 - If no budget is defined, mark as "N/A" and don't include in the average budget calculation
 - If a budget lower and upper bound range is given, take the average of the range
-- If a budget is given in British Pounds, I used a 1.7 currency conversion. This could be later improved with taking the exchange rate for that year.
+- If a budget is given in British Pounds, I used a 1.7 currency conversion. This could be later improved by taking the actual exchange rate for that year.
 
